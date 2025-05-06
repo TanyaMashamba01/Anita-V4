@@ -6,12 +6,12 @@ const toBool = (value) => value === "true";
 
 // Owner & Bot Details
 global.owner = process.env.OWNER_NUMBER;
-global.anitav4 = process.env.BOT_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
-global.ownername = process.env.OWNER_NAME || "David Cyril";
-global.packname = process.env.PACK_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
-global.author = process.env.AUTHOR || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
-global.channelname = process.env.CHANNEL_NAME || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
-global.channeljid = process.env.CHANNEL_JID || "120363315231436175@newsletter";
+global.anitav4 = process.env.BOT_NAME || "𝗝𝗼𝘀𝗵𝘂𝗮𝗺𝗮𝗺𝗯𝗼𝟭 𝗧𝗲𝗹𝗞𝗶𝗻𝗴";
+global.ownername = process.env.OWNER_NAME || "Joshuamambo1 TelKing";
+global.packname = process.env.PACK_NAME || "𝗝𝗼𝘀𝗵𝘂𝗮𝗺𝗮𝗺𝗯𝗼𝟭 𝗧𝗲𝗹𝗞𝗶𝗻𝗴";
+global.author = process.env.AUTHOR || "𝗝𝗼𝘀𝗵𝘂𝗮𝗺𝗮𝗺𝗯𝗼𝟭 𝗧𝗲𝗹𝗞𝗶𝗻𝗴";
+global.channelname = process.env.CHANNEL_NAME || "𝗝𝗼𝘀𝗵𝘂𝗮𝗺𝗮𝗺𝗯𝗼𝟭 𝗧𝗲𝗹𝗞𝗶𝗻𝗴";
+global.channeljid = process.env.CHANNEL_JID || "120363347365643318@newsletter";
 
 // Auto-Features
 global.autoTyping = toBool(process.env.AUTO_TYPING);
@@ -34,7 +34,7 @@ global.autoreact = toBool(process.env.AUTO_REACT);
 global.WELCOME = toBool(process.env.WELCOME);
 
 // Prefix & Other Settings
-global.prefix = process.env.PREFIX || '.';
+global.prefix = process.env.PREFIX || '*';
 global.autobio = toBool(process.env.AUTO_BIO);
 global.ANTI_TEMU = toBool(process.env.ANTI_TEMU);
 global.ANTI_TAG = toBool(process.env.ANTI_TAG);
